@@ -1,0 +1,120 @@
+/* :root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* ----- Reset ----- */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,p,ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+button {
+  border: none;
+}
+input {
+  outline: none;
+}
+/* ----- App.jsx ----- */
+.App {
+  padding-bottom: 60px;
+}
+.App-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  max-width: 1024px;
+  width: 90%;
+  margin: 25px auto;
+}
+.App__btn {
+  max-width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #555A88;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.App__btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #0005;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.form-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0001;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+}
+.disable__form {
+  display: none;
+}
+.agree-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0001;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+}
+.disable__agree {
+  display: none;
+}
+.delete-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0001;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+}
+.disable__delete {
+  display: none;
+}
+.users-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

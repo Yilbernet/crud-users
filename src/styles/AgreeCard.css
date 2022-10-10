@@ -1,0 +1,33 @@
+.agree {
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px #0009;
+   width: 100%;
+   max-width: 350px;
+   text-align: center;
+}
+.agree__title {
+   font-size: 25px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.agree__p {
+   font-size: 20px;
+   font-weight: 700;
+   color: #000a;
+}
+.agree__btn {
+   width: 90%;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #555A88;
+   color: white;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: filter 200ms ease;
+ }
+ .agree__btn:hover {
+   filter: brightness(1.2);
+   transition: filter 200ms ease;
+ }

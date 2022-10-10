@@ -1,0 +1,39 @@
+.delete {
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px #0009;
+   width: 100%;
+   max-width: 350px;
+   text-align: center;
+}
+.delete__title {
+   font-size: 25px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.delete__p {
+   font-size: 20px;
+   font-weight: 700;
+   color: #000a;
+   margin-bottom: 10px;
+}
+.delete__buttons {
+   display: flex;
+   justify-content: space-evenly;
+}
+.delete__btn {
+   width: 100px;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #555A88;
+   color: white;
+   margin: 15px;
+   cursor: pointer;
+   transition: transform 200ms ease, box-shadow 200ms ease;
+ }
+ .delete__btn:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 10px #0005;
+   transition: transform 200ms ease, box-shadow 200ms ease;
+ }
